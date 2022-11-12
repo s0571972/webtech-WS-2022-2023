@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://ec2-34-248-169-69.eu-west-1.compute.amazonaws.com:5432/d49uhhvufv04kt
+    driverClassName: org.postgresql.Driver
+    database-platform: postgres
+    username: xpjbjbuuroexnd
+    password: a74b3af84c341277b3aa314cb43e001ece22bcdb909d713f6bb5b467f5044283
+  h2:
+    console:
+      enabled: true
+  jpa:
+    database: POSTGRESQL
+      #hibernate.ddl-auto: create
+    show-sql: true

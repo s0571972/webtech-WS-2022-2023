@@ -1,0 +1,48 @@
+body,html {
+    height: 100%;
+background-color: rgb(250, 249, 248);
+}
+
+.table-outside {
+    text-align: -webkit-center;
+    min-width: 150px;
+    padding-top: 50px;
+}
+
+.logo img {
+        height: 25px;
+        background-color: beige;
+        padding: 2px;
+    }
+}
+
+.logo-titel {
+    color: aliceblue;
+    text-align: left;
+}
+
+h3 {
+    padding: 10px;
+}
+
+.form-label {
+    text-align: left;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+ }
+
+ .footer p {
+    margin-top:20px
+ }
+
+ .btn {
+    padding: .1rem 0.9rem !important;
+ }
